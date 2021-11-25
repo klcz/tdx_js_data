@@ -90,7 +90,7 @@ ASI1:=SUM(r,0);
 STICKLINE(r>0,0,r*2.5,9,0),color0000ee;
 STICKLINE(r<0,0,r*2.5,8,0,),colorgreen;
 DDX1:SMA(MA(r,1,1),2,1)*5,colorwhite;
-DDX8:=MA(DDX1,3),COLOR00FFFF;
+DDX8:=MA(DDX1,3);
 DDX2:SMA(DDX8,7,2),color0000FF,linethick2;
 DDX3:EMA((DDX1+DDX2)/2,2),color00EE00;
 轴:0,color664444,linethick1;
